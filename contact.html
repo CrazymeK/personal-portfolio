@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Portfolio | Contact</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+
+            <a href="index.html" class="logo">MyPortfolio</a>
+
+            <button class="menu-btn" id="menu-btn">☰</button>
+
+            <div class="nav-links" id="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="skills.html">Skills</a>
+                <a href="projects.html">Projects</a>
+                <a href="resume.html">Resume</a>
+                <a href="contact.html">Contact</a>
+            </div>
+
+            <button class="theme-btn" id="theme-btn">Dark</button>
+
+        </nav>
+    </header>
+
+
+    <main>
+
+        <section class="page-header">
+
+            <h1>Contact Me</h1>
+
+            <p>
+                Feel free to contact me or send me a message.
+            </p>
+
+        </section>
+
+
+        <section class="contact-section">
+
+            <div class="contact-info">
+
+                <h2>Get In Touch</h2>
+
+                <p>
+                    If you have a question or would like to talk about
+                    a project, you can contact me using the information
+                    below or send a message through the form.
+                </p>
+
+
+                <div class="contact-item">
+
+                    <h3>Email</h3>
+
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=kennethheller09@gmail.com"
+                    target="_blank">
+                        kennethheller09@gmail.com
+                    </a>
+
+                </div>
+
+
+                <div class="contact-item">
+
+                    <h3>Facebook</h3>
+
+                    <a href="https://www.facebook.com/share/1LRX8B4K1k/?mibextid=wwXIfr"
+                       target="_blank">
+                        Facebook Profile
+                    </a>
+
+                </div>
+
+
+                <div class="contact-item">
+
+                    <h3>GitHub</h3>
+
+                    <a href="https://github.com/CrazymeK"
+                       target="_blank">
+                        GitHub Profile
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="contact-form-container">
+
+                <h2>Send a Message</h2>
+
+                <form id="contact-form" novalidate>
+
+                    <!-- Name -->
+                    <div class="form-group">
+
+                        <label for="name">
+                            Name
+                        </label>
+
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Enter your name">
+
+                        <small
+                            class="error-message"
+                            id="name-error">
+                        </small>
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label for="email">
+                            Email
+                        </label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Enter your email">
+
+                        <small
+                            class="error-message"
+                            id="email-error">
+                        </small>
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label for="subject">
+                            Subject
+                        </label>
+
+                        <input
+                            type="text"
+                            id="subject"
+                            name="subject"
+                            placeholder="Enter the subject">
+
+                        <small
+                            class="error-message"
+                            id="subject-error">
+                        </small>
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label for="message">
+                            Message
+                        </label>
+
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="6"
+                            placeholder="Write your message"></textarea>
+
+                        <small
+                            class="error-message"
+                            id="message-error">
+                        </small>
+
+                    </div>
+
+
+                    <button
+                        type="submit"
+                        class="btn submit-btn">
+
+                        Send Message
+
+                    </button>
+
+
+                    <p id="form-success"></p>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <p>
+            &copy; 2026 Kenneth T. Heller. All Rights Reserved.
+        </p>
+
+    </footer>
+
+    <button id="scroll-top">↑</button>
+
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

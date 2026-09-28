@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Portfolio | Projects</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+
+            <a href="index.html" class="logo">MyPortfolio</a>
+
+            <button class="menu-btn" id="menu-btn">☰</button>
+
+            <div class="nav-links" id="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="skills.html">Skills</a>
+                <a href="projects.html">Projects</a>
+                <a href="resume.html">Resume</a>
+                <a href="contact.html">Contact</a>
+            </div>
+
+            <button class="theme-btn" id="theme-btn">Dark</button>
+
+        </nav>
+    </header>
+
+
+    <main>
+
+        <section class="page-header">
+
+            <h1>My Projects</h1>
+
+            <p>
+                Some of the projects and activities I have created.
+            </p>
+
+        </section>
+
+
+        <section class="project-section">
+
+            <div class="filter-buttons">
+
+                <button class="filter-btn active"
+                        data-filter="all">
+                    All
+                </button>
+
+                <button class="filter-btn"
+                        data-filter="web">
+                    Web
+                </button>
+
+                <button class="filter-btn"
+                        data-filter="programming">
+                    Programming
+                </button>
+
+                <button class="filter-btn"
+                        data-filter="networking">
+                    Networking
+                </button>
+
+                <button class="filter-btn"
+                        data-filter="animation">
+                    Animation
+                </button>
+
+            </div>
+
+            <div class="projects-grid">
+
+
+                <article class="project-card"
+                        data-category="web">
+
+                    <img src="images/project1.png"
+                        alt="Online Store Website"
+                        class="project-image">
+
+                    <div class="project-content">
+
+                        <h2>Online Store Website</h2>
+
+                        <p>
+                            A simple online store website with product
+                            listings, categories, login and registration
+                            pages, and an organized shopping interface.
+                        </p>
+
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                    <article class="project-card"
+                            data-category="programming">
+
+                        <img src="images/project2.png"
+                            alt="Java Student Grade System"
+                            class="project-image">
+
+                        <div class="project-content">
+
+                            <h2>Student Grade System</h2>
+
+                            <p>
+                                A simple Java program that allows users to
+                                enter student grades, calculate the average,
+                                and display the final result.
+                            </p>
+
+                            <div class="project-tech">
+                                <span>Java</span>
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                <article class="project-card"
+                         data-category="networking">
+
+                    <img src="images/project3.png"
+                         alt="Network Topology Project"
+                         class="project-image">
+
+                    <div class="project-content">
+
+                        <h2>Network Topology</h2>
+
+                        <p>
+                            A Cisco Packet Tracer activity involving
+                            network devices, IP addressing, routers,
+                            switches, and computer connectivity.
+                        </p>
+
+                        <div class="project-tech">
+                            <span>Networking</span>
+                            <span>Cisco Packet Tracer</span>
+                            <span>IP Addressing</span>
+                        </div>
+
+                    </div>
+
+                </article>
+
+                <article class="project-card"
+                         data-category="animation">
+
+                    <img src="images/project4.png"
+                         alt="Adobe Animate Advertisement"
+                         class="project-image">
+
+                    <div class="project-content">
+
+                        <h2>Animated Advertisement</h2>
+
+                        <p>
+                            A product advertisement created in Adobe
+                            Animate using animation techniques such as
+                            motion tween, classic tween, and shape tween.
+                        </p>
+
+                        <div class="project-tech">
+                            <span>Adobe Animate</span>
+                            <span>Motion Tween</span>
+                            <span>Shape Tween</span>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <p>
+            &copy; 2026 Kenneth T. Heller. All Rights Reserved.
+        </p>
+
+    </footer>
+
+    <button id="scroll-top">↑</button>
+
+<div class="image-modal" id="image-modal">
+
+    <span class="modal-close" id="modal-close">
+        &times;
+    </span>
+
+    <img id="modal-image"
+         src=""
+         alt="Project Preview">
+
+    <p id="modal-caption"></p>
+
+</div>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
